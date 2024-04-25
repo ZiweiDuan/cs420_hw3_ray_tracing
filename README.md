@@ -20,12 +20,13 @@ Ziwei Duan
 
 
 **EXTRA CREDIT FEATURES:** 
-- Good antialiasing
+------------------
+1) Good antialiasing
     - This feature is turned on by default. You can also explicitly turn on the feature by `./hw3_brdf test2.scene test2.jpeg --anti-aliasing=true`;
     - Image output: snow_anti_aliasing.jpeg, table_anti_aliasing.jpeg.
-- Recursive Reflection:
+2) Recursive Reflection:
    - `cd ./hw3-starterCode`, and you can specify the maximum number of reflection rays allowed:  `./hw3_brdf test2.scene test2.jpeg --reflection-bounces=2`. By default `--reflection-bounces=0`;     
-- Monte-Carlo sampling 
+3) Monte-Carlo Sampling, Bidirectional Reflectance Distribution Function. 
     - Please `cd ../hw3-starterCode-BRDF`, and run `./hw3_brdf test2.scene`
     - You can change the number of camera rays shoot per pixel by running `./hw3_brdf test2.scene test2_spp35.jpeg --brdf_sample_size=35`; 
     - You can see how test2 renderings progress as we increase the number of camera rays: 
