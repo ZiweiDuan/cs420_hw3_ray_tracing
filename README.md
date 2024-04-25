@@ -18,7 +18,8 @@ Ziwei Duan
 - For core credit, please refer to jpeg suffixed with _core_credit.jpeg.
 
 
-**Extra Credit Features:** (up to 30 points)
+
+**EXTRA CREDIT FEATURES:** 
 - Good antialiasing
     - This feature is turned on by default. You can also explicitly turn on the feature by `./hw3_brdf test2.scene test2.jpeg --anti-aliasing=true`;
     - Image output: snow_anti_aliasing.jpeg, table_anti_aliasing.jpeg.
